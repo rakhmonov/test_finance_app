@@ -55,8 +55,9 @@ require_once 'app/app.php';
                         <ul class="nav side-menu">
                             <li class="active"><a><i class="fa fa-home"></i> МЕНЮ <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu" style="display: block;">
+                                    <li><a href="/">Главная</a></li>
+                                    <li><a href="finance.php">Доходы</a></li>
                                     <li><a href="report.php" class="ajax">Расходы</a></li>
-                                    <li><a href="#">Отчеты</a></li>
                                 </ul>
                             </li>
                         </ul>
